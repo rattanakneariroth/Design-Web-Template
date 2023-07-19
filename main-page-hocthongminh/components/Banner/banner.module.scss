@@ -1,0 +1,16 @@
+.swipeSlide{
+   height: 620px;
+   overflow: hidden;
+   .slide Image{
+    z-index: 1;
+    position: absolute;
+   }
+   .navigation .btn{
+    background: rgba(255, 255, 255, 0.5);
+    width: 15px;
+    height: 15px;
+    margin: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+   }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Nanum+Gothic+Coding&family=Poppins:wght@300;500&family=Roboto:wght@500&display=swap');
+
+$green: #009D9D;
+$yellow: #FFA800;
+$yellow1: #FFA800CC;
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    background: white;
+    align-items: center;
+    z-index: 1000;
+    .logo{
+        margin-right: auto;
+    }
+    .icon{
+        margin-left: auto;
+        button {
+            background-color: #FFA800;
+            border-radius: 10px;
+            padding: 4px 20px;
+            color: white;
+            border:0;
+        }
+    }
+    .navbar{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    height: 42px;
+    background-color: #009D9D;
+    align-items: center;
+    padding-left: 11%;
+    a{
+        font-size: 13px;
+        padding: 8px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    }
+    .top{
+        display: flex;
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+    
+}

@@ -1,0 +1,72 @@
+.categoryTest{
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background: url(https://hocthongminh.com/images/event_bg_bottom.png);
+    font-family: 'Poppins', sans-serif;
+    // line-height: 1;
+    .dethi{
+        text-align: center;
+        ul{
+            display: flex;
+            // position: absolute;
+            padding-bottom: 15px;
+            justify-content: center;
+            li{
+                list-style: none;
+                padding: 0 20px;
+                a{
+                    padding: 10px;
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: #0a342f;
+                    
+                }
+                .active{
+                    color: #009D9D;
+                    border-bottom: 4px solid #009D9D;
+                    width: 50%;
+                    border-radius: 1px;
+                    transition: 0.5s ease;
+                }
+            }     
+        }
+        .categoryTestDes{
+            padding: 20px 0;
+            width: 80%;
+            margin: 0 auto;
+            font-weight: lighter;
+            padding-left: 7%;
+            padding-right: 7%;
+        }
+        .categoryTestBody{
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 16px;
+            margin-top: 20px;
+            padding-left: 11%;
+            padding-right: 11%;
+            a{
+                background: #f6faff;
+                border: 1.5px solid #4f4f4f;
+                box-shadow: 0 6px 15px hsla(0,0%,100%,.5);
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 16px 10px;
+                cursor: pointer;
+                transition: .25s;
+                .boxItemContent{
+                    margin-left: 10px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: var(--text-color);
+                }
+                
+            }
+        }
+    }
+}    
+$green: #009D9D;

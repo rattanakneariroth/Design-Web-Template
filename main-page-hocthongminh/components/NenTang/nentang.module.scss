@@ -1,0 +1,38 @@
+.homeBase{
+    text-align: center;
+    background: #fff url(https://hocthongminh.com/images/brick-wall.png) ;
+    padding: 40px 0;
+    padding-left: 11%;
+    padding-right: 11%;
+    .homeBaseTitle{
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    .homeBaseBody{
+        display: flex;
+        justify-content: center;
+        padding: 60px 0;
+        .homeBaseItem{
+            padding: 0 66px;
+            .number{
+                font-size: 64px;
+                font-weight: 700;
+                min-width: 205px;
+                font-family: 'Poppins', sans-serif;
+
+            }
+            .text{
+                font-weight: 600;
+                font-size: 20px;
+                font-family: 'Poppins', sans-serif;
+
+            }
+        }
+        .middle{
+            border-right: 3px solid #e0e0e0;
+            border-left: 3px solid #e0e0e0;
+        }
+    }
+}

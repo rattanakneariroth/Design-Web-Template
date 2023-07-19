@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Nanum+Gothic+Coding&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+.categaryCourse{
+    padding: 50px;
+    background-color: #F2FDFD;
+    padding-left: 11%;
+    padding-right: 11%;
+    .titleCategory{
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: 'Poppins', sans-serif;
+        
+        .title_h1 {
+            font-size: 28px;
+
+            
+        }
+        .summary{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+    }
+    .itemTitle{
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    .courseItem{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 16px;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ 
+    
+        .thcs{
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 6px 15px rgba(203,204,218,.5);
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            display: grid;
+            // gap: 20px;
+            
+            .courseItemImg {
+                display: block;
+                width: 100%;
+            }
+    
+            
+            .courseItemBody{
+                padding-top: 5px;
+                text-align: justify;
+                font-size: 14px;
+                color: #686868;
+                line-height: 24px;
+                
+            }
+            .courseItemButton{
+                
+                padding-top: 20px;
+                padding-bottom: 10px;
+                text-align: center;
+
+                
+                // font-size: 40px;
+                
+                
+                Button{
+                    // display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 0.875rem;
+                    padding: 5px 15px;
+                    border-color: #009E9D;
+                    background: white;
+                    border-radius: 4px;
+                    
+
+                }
+                Button:hover{
+                    background: #009E9D;
+                    
+                }
+                
+                
+            }
+     
+        }
+        
+    }
+    .courseBody{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 16px;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 120px ;
+        padding-right: 120px ;
+
+        .thcs{
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 6px 15px rgba(203,204,218,.5);
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            display: grid;
+            // gap: 20px;
+            
+            .courseItemImg {
+                display: block;
+                width: 100%;
+            }
+    
+            
+            .courseItemBody{
+                padding-top: 5px;
+                text-align: justify;
+                font-size: 14px;
+                color: #686868;
+                line-height: 24px;
+                
+            }
+            .courseItemButton{
+                
+                padding-top: 20px;
+                padding-bottom: 10px;
+                text-align: center;
+
+                Button{
+                    // display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 0.875rem;
+                    padding: 5px 15px;
+                    border-color: #009E9D;
+                    background: white;
+                    border-radius: 4px;
+                    
+
+                }
+                Button:hover{
+                    background: #009E9D;
+                    
+                }    
+            }
+      
+        }    
+    }
+    
+}
+$background: #F2FDFD;
