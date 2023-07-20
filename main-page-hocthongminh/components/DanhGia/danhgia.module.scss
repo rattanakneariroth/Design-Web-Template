@@ -1,0 +1,81 @@
+.homeFB{
+    padding: 20px 0;
+    background-color: #F3F7F9;
+    padding-left: 11%;
+    padding-right: 11%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+    .homeFBTitle{
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+        color: #0a342f;
+        padding: 40px 0;
+
+    }
+    .swiper{
+        padding: 70px 0;
+        
+        .swiperWrapper{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            display: flex;
+            transition-property: transform;
+            box-sizing: content-box;
+            // transition-duration: 0ms;
+            // transform: translate3d(-994px, 0px, 0px);
+            // transform: translateZ(0);
+            display: grid;
+            // grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            
+        }
+
+    }
+    .itemFB{
+        // display: grid;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 6px 15px rgba(203,204,218,.5);
+        border-radius: 5px;
+        padding: 10px 10px 20px;
+        position: relative;
+        justify-content: center;
+        .activeFB{
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            top: -30px;
+            left: -30px;
+            display: none;
+        }
+        .image{
+            padding: 10px 0;
+        }
+        .name{
+            padding-bottom: 10px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .rate{
+            display: inline-flex;
+            padding: 4px 10px;
+            align-items: center;
+            border: 1px solid #009d9d;
+            border-radius: 50px;
+            .star{
+                font-size: 1.125rem;
+                color: #faaf00;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}

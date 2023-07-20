@@ -1,0 +1,137 @@
+.homeBannerRegister{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 9%;
+    padding-right: 9%;
+    display: flex;
+    justify-content: center;
+    background-color: #F3F7F9;
+    .boxBanner{
+        position: relative;
+        align-items: center;
+        display: flex;
+        background: #f9fbff;
+        border: 1px solid #000;
+        box-shadow: 0 15px 30px rgba(0,157,157,.18);
+        border-radius: 25px;
+        padding-left: 75px;
+
+        width: 1150px;
+        height: 390px;
+        
+        .bannerLeft{
+            
+            // padding-bottom: 40px;
+            // padding-left: 40px;
+
+            .bannerInfo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Poppins', sans-serif;
+               
+
+                .bannerRegister{
+                    color: #0a342f;
+                    font-size: 32px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .bannerAcc{
+                    color: #009d9d;
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+                .bannerFree{
+                    font-size: 100px;
+                    color: #FFA800;
+                    letter-spacing: 2px;
+                    -webkit-text-fill-color: #fff2ae;
+                    -webkit-text-stroke-width: 3px;
+                    -webkit-text-stroke-color: #FFA800;
+                    margin-left: 16px;
+                    line-height: 100px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 700;
+
+                }
+            }
+            .bannerInfoBody{
+                font-family: 'Poppins', sans-serif;
+                font-weight: lighter;
+                margin-left: 35px;
+                .bannerTextItem{
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 0;
+                    margin-left: 8px;
+                    color: var(--textColor);
+                    font-size: 18px;
+}
+                }
+            
+            }
+            .bannerInfoAction{
+                margin-left: 30px;
+                padding: 10px 0;
+                height: 60px;
+
+                .bannerZoom{
+                    border: 1.5px solid #009d9d;
+                    width: 180px;
+                    padding: 2px 21px;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 12px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 15px;
+                    color: #009d9d;
+                    animation: buttonZoom 2s ease infinite ;
+                    font-size: 14px;
+                    cursor: pointer;
+                    box-shadow: 0 15px 20px rgba(6,192,192,.25);
+                    span{
+                        padding-top: 5px;
+                        padding-left: 10px;
+                    }
+                    @keyframes buttonZoom {
+                        100%{
+                            transform: scale(0.9);
+                        }
+                        60%{
+                            transform: scale(0.9);
+                        }
+                        25%{
+                            transform: scale(1.1);
+                        }
+                        0%{
+                            transform: scale(1.1);
+                        }
+                        
+                    }
+                }
+            }
+        .bannerRight{
+            position: absolute;
+            
+            // display: flex;
+            // height: 100%;
+            .bannerClickImg{
+                position: relative;
+                display: block;
+                top: -40px;
+                left:620px;
+               
+
+            }
+            .bannerLockImg{
+                position: relative;
+                width: 152px;
+                top: -290px;
+                left: 875px;
+            }
+            
+        }
+    }
+}
+$--secondaryColor: #FFA800;

@@ -16,11 +16,11 @@ export default function Banner() {
             
 
         </div>
-        <div className={styles.navigation}>
+        {/* <div className={styles.navigation}>
             <div className={styles.btn}></div>
             <div className={styles.btn}></div>
             <div className={styles.btn}></div>
-        </div>
+        </div> */}
         
     </div>
     

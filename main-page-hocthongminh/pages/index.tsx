@@ -5,6 +5,13 @@ import LuyenTap from '../components/LuyenTap'
 import DeThi from '../components/DeThi'
 import LoiIch from '../components/LoiIch'
 import NenTang from '../components/NenTang'
+import DangKy from '../components/DangKy'
+import Blog from '../components/Blog'
+import Footer from '../components/Footer'
+import DanhGia from '../components/DanhGia'
+
+import styles from '../styles/Home.module.css'
+
 
 
 export default function Home() {
@@ -23,6 +30,10 @@ export default function Home() {
         <DeThi/>
         <LoiIch/>
         <NenTang/>
+        <DangKy/>
+        <DanhGia/>
+        <Blog/>
+        <Footer/>
       </main>
     </>
   )
