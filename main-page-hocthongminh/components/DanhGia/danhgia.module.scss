@@ -66,15 +66,21 @@
         }
         .rate{
             display: inline-flex;
-            padding: 4px 10px;
+            
             align-items: center;
             border: 1px solid #009d9d;
             border-radius: 50px;
-            .star{
-                font-size: 1.125rem;
-                color: #faaf00;
-                cursor: pointer;
-            }
+            
+        }
+        .contentFB{
+            margin: 10px 0;
+            text-align: left;
+            line-height: 24px;
+            min-height: 96px;
+        }
+        .star1{
+            color: yellow;
+            text-align: center;
         }
     }
     
