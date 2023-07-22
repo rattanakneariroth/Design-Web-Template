@@ -10,7 +10,7 @@ export default function Blog() {
             <a href="#">
               <div className={styles.itemKnowledge}>
                 <div className={styles.imageKnowledge}>
-                  <Image src={Blog1}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
+                  <Image src={Blog1}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'150px'}}/>
 
                 </div>
                 <div className={styles.infoKnowledge}>
@@ -28,7 +28,7 @@ export default function Blog() {
             <a href="#">
               <div className={styles.itemKnowledge}>
                 <div className={styles.imageKnowledge}>
-                  <Image src={Blog1}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
+                  <Image src={Blog1}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'150px'}}/>
 
                 </div>
                 <div className={styles.infoKnowledge}>
@@ -46,7 +46,7 @@ export default function Blog() {
             <a href="#">
               <div className={styles.itemKnowledge}>
                 <div className={styles.imageKnowledge}>
-                  <Image src={Blog1}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
+                  <Image src={Blog1}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'150px'}}/>
 
                 </div>
                 <div className={styles.infoKnowledge}>
@@ -64,7 +64,7 @@ export default function Blog() {
             <a href="#">
               <div className={styles.itemKnowledge}>
                 <div className={styles.imageKnowledge}>
-                  <Image src={Blog1}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
+                  <Image src={Blog1}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'150px'}}/>
 
                 </div>
                 <div className={styles.infoKnowledge}>
