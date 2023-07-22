@@ -66,10 +66,18 @@
         }
         .rate{
             display: inline-flex;
-            
             align-items: center;
             border: 1px solid #009d9d;
             border-radius: 50px;
+            cursor: pointer;
+            padding: 4px 10px;
+            span{
+                
+                // text-align: center;
+                display: flex;
+                align-items: center;
+                fill: #faaf00;
+            }
             
         }
         .contentFB{
@@ -78,10 +86,8 @@
             line-height: 24px;
             min-height: 96px;
         }
-        .star1{
-            color: yellow;
-            text-align: center;
-        }
+        
     }
     
 }
+$yellowstar: #faaf00;
