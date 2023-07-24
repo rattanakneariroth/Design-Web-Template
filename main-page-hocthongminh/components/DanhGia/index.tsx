@@ -4,17 +4,14 @@ import Image from 'next/image'
 export default function DanhGia() {
   return (
     <div className={styles.homeFB}>
-        <div className={styles.homeFBTitle}>
+        <div data-aos="zoom-in" className={styles.homeFBTitle}>
         Mọi người nghĩ gì về chúng tôi
         </div>
         <div className={styles.swiper}>
            <div className={styles.swiperWrapper}>
-           <div className={styles.swiperSlide}>
+                <div className={styles.swiperSlide}>
                     <div className={styles.itemFB}>
-                        <div className={styles.activeFB}>
-                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={100} height={100}  />
-
-                        </div>
+                        
                         <div className={styles.topFB}>
                             <div className={styles.image}>
                                  <Image src="https://hocthongminh.com/images/phuonglinh.svg"  alt="feedback" width={100} height={100}  />
@@ -45,10 +42,10 @@ export default function DanhGia() {
                         </div>
                     </div>
                 </div>
-                <div className={styles.swiperSlide}>
+                <div className={`${styles["swiperSlide"]} ${styles["prev"]}`}>
                     <div className={styles.itemFB}>
                         <div className={styles.activeFB}>
-                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={100} height={100}  />
+                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={70} height={70}  />
 
                         </div>
                         <div className={styles.topFB}>
@@ -83,10 +80,7 @@ export default function DanhGia() {
                 </div>
                 <div className={styles.swiperSlide}>
                     <div className={styles.itemFB}>
-                        <div className={styles.activeFB}>
-                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={100} height={100}  />
-
-                        </div>
+                        
                         <div className={styles.topFB}>
                             <div className={styles.image}>
                                  <Image src="https://hocthongminh.com/images/phuonglinh.svg"  alt="feedback" width={100} height={100}  />

@@ -49,6 +49,7 @@
             .swipeSlide{
                 width: 100%;
                 // margin-right: 30px;
+                scroll-snap-type: x mandatory;
                 .imgSlide{
                     width: 134px;
                     margin: 0 auto;

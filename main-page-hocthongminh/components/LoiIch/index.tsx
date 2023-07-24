@@ -5,10 +5,11 @@ import image2 from '../../public/image-2.webp'
 import image3 from '../../public/image-3.webp'
 import image1 from '../../public/image-1.webp'
 
+
 export default function LoiIch() {
   return (
     <div className={styles.homeUtils}>
-        <div className={styles.homeUtilHeader}>
+        <div data-aos="zoom-in" className={styles.homeUtilHeader}>
             <div className={styles.homeUtilTitle}>
              Lợi ích
             </div>
@@ -29,7 +30,8 @@ export default function LoiIch() {
                         <Image src={image1}  alt="image1" width={134} height={140}/>
                     </div>
                     <div className={styles.utilItemDes}>
-                    Học từ những sai lầm với những gợi ý thống kê quá trình học chi tiết                    </div>
+                        Học từ những sai lầm với những gợi ý thống kê quá trình học chi tiết                    
+                    </div>
                 </div>
                 <div className={styles.swipeSlide}>
                     <div className={styles.imgSlide}>

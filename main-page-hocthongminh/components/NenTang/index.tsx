@@ -3,7 +3,7 @@ export default function NenTang() {
   return (
     <div className={styles.homeBase}>
         <div>
-            <div className={styles.homeBaseTitle}>
+            <div data-aos="zoom-in" className={styles.homeBaseTitle}>
             Nền tảng Học Thông Minh có gì?
             </div>
             <div className={styles.homeBaseBody}>

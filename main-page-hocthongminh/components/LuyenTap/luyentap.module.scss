@@ -17,6 +17,7 @@
         .summary{
             width: 80%;
             margin: 0 auto;
+            font-weight: lighter;
         }
 
     }
@@ -35,8 +36,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 30px;
  
-    
+        .thcs:hover{
+            transform: scale(1.05, 1.12);
+        }
         .thcs{
             padding: 10px;
             background: #fff;
@@ -45,6 +49,7 @@
             cursor: pointer;
             font-family: 'Poppins', sans-serif;
             display: grid;
+            transition: all 0.25s;
             // gap: 20px;
             
             .courseItemImg {
@@ -59,6 +64,12 @@
                 font-size: 14px;
                 color: #686868;
                 line-height: 24px;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                overflow: hidden;
+
+
                 
             }
             .courseItemButton{
@@ -71,7 +82,7 @@
                 // font-size: 40px;
                 
                 
-                Button{
+                .button1, .svg1{
                     // display: flex;
                     align-items: center;
                     cursor: pointer;
@@ -80,17 +91,128 @@
                     border-color: #009E9D;
                     background: white;
                     border-radius: 4px;
+                    background: transparent;
+                    position: relative;
+                    color:#009E9D ;
+                    fill: #009E9D;
+                    
+                    
                     
 
                 }
-                Button:hover{
+                .button1::before, .svg::before{
                     background: #009E9D;
+                    position: relative;
+                    // inset: 1;
                     
                 }
+                .button1:hover, .svg:hover{
+                    color: white;
+                    background: #009E9D;
+                    fill: white;
+                    
+                    
+
+                }
+                .button2, .svg2{
+                    // display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 0.875rem;
+                    padding: 5px 15px;
+                    border-color: #56BB7E;
+                    background: white;
+                    border-radius: 4px;
+                    background: transparent;
+                    position: relative;
+                    color: #56BB7E;
+                    fill: #56BB7E;
+                    
+
+                }
+                .button2::before, .svg2::before{
+                    background: #56BB7E;
+                    position: relative;
+                    // inset: 1;
+                    
+                }
+                .button2:hover, .svg2:hover{
+                    color: white;
+                    background: #56BB7E;
+                    
+                    
+
+                }
+                .button3, .svg3{
+                    // display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 0.875rem;
+                    padding: 5px 15px;
+                    border-color: #F5B73B;
+                    background: white;
+                    border-radius: 4px;
+                    background: transparent;
+                    position: relative;
+                    color: #F5B73B;
+                    fill: #F5B73B;
+                    
+                    
+
+                }
+                .button3::before{
+                    background: #F5B73B;
+                    position: relative;
+                    // inset: 1;
+                    
+                }
+                .button3:hover{
+                    color: white;
+                    background: #F5B73B;
+                    
+                    
+
+                }
+                .button4, .svg4{
+                    // display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 0.875rem;
+                    padding: 5px 15px;
+                    border-color: #F58552;
+                    background: white;
+                    border-radius: 4px;
+                    background: transparent;
+                    position: relative;
+                    color:#F58552;
+                    fill: #F58552;
+                    
+                    
+
+                }
+                .button4::before{
+                    background: #F58552;
+                    position: relative;
+                    // inset: 1;
+                    
+                }
+                .button4:hover{
+                    color: white;
+                    background: #F58552;
+                    
+                    
+
+                }
+
+
+
                 
                 
             }
      
+        }
+        .thcs:hover{
+            transform: scale(1.05, 1.12);
         }
         
     }
@@ -113,6 +235,9 @@
             cursor: pointer;
             font-family: 'Poppins', sans-serif;
             display: grid;
+            transition: all 0.25s;
+
+            
             // gap: 20px;
             
             .courseItemImg {
@@ -127,6 +252,10 @@
                 font-size: 14px;
                 color: #686868;
                 line-height: 24px;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                overflow: hidden;
                 
             }
             .courseItemButton{
@@ -135,26 +264,105 @@
                 padding-bottom: 10px;
                 text-align: center;
 
-                Button{
+                .button5, .svg5{
                     // display: flex;
                     align-items: center;
                     cursor: pointer;
                     font-size: 0.875rem;
                     padding: 5px 15px;
-                    border-color: #009E9D;
+                    border-color: #3BB3DA;
                     background: white;
                     border-radius: 4px;
+                    background: transparent;
+                    position: relative;
+                    color:#3BB3DA;
+                    fill: #3BB3DA;
+                    
                     
 
                 }
-                Button:hover{
-                    background: #009E9D;
+                .button5::before{
+                    background: #3BB3DA;
+                    position: relative;
+                    // inset: 1;
                     
-                }    
+                }
+                .button5:hover{
+                    color: white;
+                    background: #3BB3DA;
+                    
+                    
+
+                }
+                .button6, .svg6{
+                    // display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 0.875rem;
+                    padding: 5px 15px;
+                    border-color: #8E91E4;
+                    background: white;
+                    border-radius: 4px;
+                    background: transparent;
+                    position: relative;
+                    color:#8E91E4;
+                    fill: #8E91E4;
+                    
+                    
+
+                }
+                .button6::before{
+                    background: #8E91E4;
+                    position: relative;
+                    // inset: 1;
+                    
+                }
+                .button6:hover{
+                    color: white;
+                    background: #8E91E4;
+                    
+                    
+
+                }
+                .button7, .svg7{
+                    // display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 0.875rem;
+                    padding: 5px 15px;
+                    border-color: #D98791;
+                    background: white;
+                    border-radius: 4px;
+                    background: transparent;
+                    position: relative;
+                    color:#D98791;
+                    fill: #D98791;
+                    
+                    
+
+                }
+                .button7::before{
+                    background: #D98791;
+                    position: relative;
+                    // inset: 1;
+                    
+                }
+                .button7:hover{
+                    color: white;
+                    background: #D98791;
+                    
+                    
+
+                }
             }
       
         }    
+        .thcs:hover{
+            transform: scale(1.05, 1.12);
+        }
     }
     
 }
 $background: #F2FDFD;
+$lop6: #8E91E4;
+$lop7:#D98791;

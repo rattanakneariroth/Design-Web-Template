@@ -14,7 +14,7 @@ export default function DangKy() {
         <div className={styles.boxBanner}>
             <div className={styles.bannerLeft}>
                 <div className={styles.bannerInfo}>
-                    <div className={styles.aosInit}>
+                    <div data-aos="fade-right" className={styles.aosInit}>
                         <div className={styles.bannerRegister}>
                         Đăng ký
                         </div>
@@ -22,7 +22,7 @@ export default function DangKy() {
                         Tài khoản
                         </div>
                     </div>
-                    <div className={styles.bannerFree}>FREE</div>
+                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className={styles.bannerFree}>FREE</div>
                 </div>
                 <div className={styles.bannerInfoBody}>
                     <div className={styles.bannerTextItem}>
@@ -52,11 +52,11 @@ export default function DangKy() {
                 
             </div>
             <div className={styles.bannerRight}>
-                <div className={styles.bannerClickImg}>
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className={styles.bannerClickImg}>
                     <Image src={bannerclick} width={376} height={371}   alt="bannerlogin" />
 
                 </div>
-                <div className={styles.bannerLockImg}>
+                <div data-aos="fade-right" className={styles.bannerLockImg}>
                     <Image src={bannerlock} width={152} height={88} alt="lock"/>
 
                 </div>

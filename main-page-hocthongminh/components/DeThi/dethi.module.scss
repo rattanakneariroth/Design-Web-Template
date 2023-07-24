@@ -58,13 +58,21 @@
                 padding: 16px 10px;
                 cursor: pointer;
                 transition: .25s;
+                
                 .boxItemContent{
                     margin-left: 10px;
                     font-size: 16px;
                     font-weight: 600;
                     color: var(--text-color);
+                    
                 }
                 
+                
+            }
+            a:hover{
+                color: white;
+                background: #009E9D;
+                border-color: #009E9D;
             }
         }
     }

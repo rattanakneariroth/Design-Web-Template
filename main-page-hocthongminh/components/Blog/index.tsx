@@ -6,7 +6,7 @@ export default function Blog() {
     <div className={styles.knowledgeView}>
         <div className={styles.titleKnowledge}>Kiến thức hay</div>
         <div className={styles.blockKnowledge}>
-          <div className={styles.itemKnowledgePanel}>
+          <div data-aos="zoom-in" className={styles.itemKnowledgePanel}>
             <a href="#">
               <div className={styles.itemKnowledge}>
                 <div className={styles.imageKnowledge}>
@@ -24,7 +24,7 @@ export default function Blog() {
               </div>
             </a>
           </div>
-          <div className={styles.itemKnowledgePanel}>
+          <div data-aos="zoom-in" className={styles.itemKnowledgePanel}>
             <a href="#">
               <div className={styles.itemKnowledge}>
                 <div className={styles.imageKnowledge}>
@@ -42,7 +42,7 @@ export default function Blog() {
               </div>
             </a>
           </div>
-          <div className={styles.itemKnowledgePanel}>
+          <div data-aos="zoom-in" className={styles.itemKnowledgePanel}>
             <a href="#">
               <div className={styles.itemKnowledge}>
                 <div className={styles.imageKnowledge}>
@@ -60,7 +60,7 @@ export default function Blog() {
               </div>
             </a>
           </div>
-          <div className={styles.itemKnowledgePanel}>
+          <div data-aos="zoom-in" className={styles.itemKnowledgePanel}>
             <a href="#">
               <div className={styles.itemKnowledge}>
                 <div className={styles.imageKnowledge}>

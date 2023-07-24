@@ -35,7 +35,7 @@ export default function LuyenTap() {
                     <div className={styles.itemTitle}>Khối THCS</div>
                         
                             <div className={styles.courseItem}>
-                                    <div className={styles.thcs}>
+                                    <div data-aos="zoom-in" className={`${styles["thcs"]} ${styles["thcs1"]}`}>
                                         <div className={styles.courseItemImg}>
                                             <Image src={lop6}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
 
@@ -44,10 +44,10 @@ export default function LuyenTap() {
                                             Tổng hợp tài liệu các môn Toán, Văn, Tiếng Anh, Lịch Sử,... đầy đủ và chi tiết nhất theo chương trình học lớp 6 và các đề thi học lỳ 1, học kỳ 2 kèm theo lời giải chi tiết.
                                         </div>
                                         <div className={styles.courseItemButton}>
-                                        <Button variant="outlined">Luyện ngay<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
+                                        <Button className={styles.button1} variant="outlined">Luyện ngay<svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path  d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon className={styles.svg1} points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
                                         </div>
                                     </div>
-                                    <div className={styles.thcs}>
+                                    <div data-aos="zoom-in" className={`${styles["thcs"]} ${styles["thcs2"]}`}>
                                         <div className={styles.courseItemImg}>
                                         <Image src={lop7}  alt="lop7" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
 
@@ -56,10 +56,10 @@ export default function LuyenTap() {
                                             Tổng hợp tài liệu các môn Toán, Văn, Tiếng Anh, Lịch Sử,... đầy đủ và chi tiết nhất theo chương trình học lớp 6 và các đề thi học lỳ 1, học kỳ 2 kèm theo lời giải chi tiết.
                                         </div>
                                         <div className={styles.courseItemButton}>
-                                        <Button variant="outlined">Luyện ngay<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
+                                        <Button className={styles.button2} variant="outlined">Luyện ngay<svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path  d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon className={styles.svg2} points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
                                         </div>
                                     </div>
-                                    <div className={styles.thcs}>
+                                    <div data-aos="zoom-in" className={`${styles["thcs"]} ${styles["thcs3"]}`}>
                                         <div className={styles.courseItemImg}>
                                         <Image src={lop8}  alt="lop8" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
 
@@ -68,10 +68,10 @@ export default function LuyenTap() {
                                             Tổng hợp tài liệu các môn Toán, Văn, Tiếng Anh, Lịch Sử,... đầy đủ và chi tiết nhất theo chương trình học lớp 6 và các đề thi học lỳ 1, học kỳ 2 kèm theo lời giải chi tiết.
                                         </div>
                                         <div className={styles.courseItemButton}>
-                                        <Button variant="outlined">Luyện ngay<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
+                                        <Button className={styles.button3} variant="outlined">Luyện ngay<svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon className={styles.svg3} points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
                                         </div>
                                     </div>
-                                    <div className={styles.thcs}>
+                                    <div data-aos="zoom-in" className={`${styles["thcs"]} ${styles["thcs4"]}`}>
                                         <div className={styles.courseItemImg}>
                                         <Image src={lop9}  alt="lop9" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
 
@@ -80,7 +80,7 @@ export default function LuyenTap() {
                                             Tổng hợp tài liệu các môn Toán, Văn, Tiếng Anh, Lịch Sử,... đầy đủ và chi tiết nhất theo chương trình học lớp 6 và các đề thi học lỳ 1, học kỳ 2 kèm theo lời giải chi tiết.
                                         </div>
                                         <div className={styles.courseItemButton}>
-                                            <Button variant="outlined">Luyện ngay<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
+                                        <Button className={styles.button4} variant="outlined">Luyện ngay<svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon className={styles.svg4} points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
                                         </div>
                                     </div>
                             </div>
@@ -90,7 +90,7 @@ export default function LuyenTap() {
                 <div className={styles.itemTitle}>Khối THPT</div>
                         
                             <div className={styles.courseBody}>
-                                    <div className={styles.thcs}>
+                                    <div data-aos="zoom-in" className={styles.thcs}>
                                         <div className={styles.courseItemImg}>
                                             <Image src={lop10}  alt="lop6" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
 
@@ -99,10 +99,10 @@ export default function LuyenTap() {
                                             Tổng hợp tài liệu các môn Toán, Văn, Tiếng Anh, Lịch Sử,... đầy đủ và chi tiết nhất theo chương trình học lớp 6 và các đề thi học lỳ 1, học kỳ 2 kèm theo lời giải chi tiết.
                                         </div>
                                         <div className={styles.courseItemButton}>
-                                        <Button variant="outlined">Luyện ngay<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
+                                        <Button className={styles.button5} variant="outlined">Luyện ngay<svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path  d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon className={styles.svg5} points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
                                         </div>
                                     </div>
-                                    <div className={styles.thcs}>
+                                    <div data-aos="zoom-in" className={styles.thcs}>
                                         <div className={styles.courseItemImg}>
                                         <Image src={lop11}  alt="lop7" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
 
@@ -111,10 +111,10 @@ export default function LuyenTap() {
                                             Tổng hợp tài liệu các môn Toán, Văn, Tiếng Anh, Lịch Sử,... đầy đủ và chi tiết nhất theo chương trình học lớp 6 và các đề thi học lỳ 1, học kỳ 2 kèm theo lời giải chi tiết.
                                         </div>
                                         <div className={styles.courseItemButton}>
-                                        <Button variant="outlined">Luyện ngay<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
+                                        <Button className={styles.button6} variant="outlined">Luyện ngay<svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path  d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon className={styles.svg6} points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
                                         </div>
                                     </div>
-                                    <div className={styles.thcs}>
+                                    <div data-aos="zoom-in" className={styles.thcs}>
                                         <div className={styles.courseItemImg}>
                                         <Image src={lop12}  alt="lop8" width={0} height={0}  style={{ width: '100%', height:'auto'}}/>
 
@@ -123,7 +123,7 @@ export default function LuyenTap() {
                                             Tổng hợp tài liệu các môn Toán, Văn, Tiếng Anh, Lịch Sử,... đầy đủ và chi tiết nhất theo chương trình học lớp 6 và các đề thi học lỳ 1, học kỳ 2 kèm theo lời giải chi tiết.
                                         </div>
                                         <div className={styles.courseItemButton}>
-                                        <Button variant="outlined">Luyện ngay<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
+                                        <Button className={styles.button7} variant="outlined">Luyện ngay<svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="15"><g><path  d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon className={styles.svg7} points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg></Button>
                                         </div>
                                     </div>
                                     
