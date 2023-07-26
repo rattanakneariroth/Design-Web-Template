@@ -9,8 +9,8 @@ import DangKy from '../components/DangKy'
 import Blog from '../components/Blog'
 import Footer from '../components/Footer'
 import DanhGia from '../components/DanhGia'
+import DeThi2 from '@/components/DeThi2'
 
-import styles from '../styles/Home.module.css'
 
 
 
@@ -27,6 +27,7 @@ export default function Home() {
         <Header/>
         <Banner/>
         <LuyenTap/>
+        {/* <DeThi2/> */}
         <DeThi/>
         <LoiIch/>
         <NenTang/>

@@ -2,7 +2,7 @@ import styles from './nentang.module.scss'
 export default function NenTang() {
   return (
     <div className={styles.homeBase}>
-        <div>
+        <div className={styles.css_1uc9k28}>
             <div data-aos="zoom-in" className={styles.homeBaseTitle}>
             Nền tảng Học Thông Minh có gì?
             </div>

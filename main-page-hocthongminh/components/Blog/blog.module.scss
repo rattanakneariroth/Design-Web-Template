@@ -60,11 +60,12 @@
                     }
                 }
             }
+            .itemKnowledge:hover{
+                transform: translateY(-10px);
+            }
 
         }
-        .itemKnowledge:hover{
-            transform: translateY(-10px);
-        }
+        
         
     }
 }

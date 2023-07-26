@@ -7,30 +7,11 @@
     // line-height: 1;
     .dethi{
         text-align: center;
-        ul{
-            display: flex;
-            // position: absolute;
-            padding-bottom: 15px;
-            justify-content: center;
-            li{
-                list-style: none;
-                padding: 0 20px;
-                a{
-                    padding: 10px;
-                    font-size: 24px;
-                    font-weight: 700;
-                    color: #0a342f;
-                    
-                }
-                .active{
-                    color: #009D9D;
-                    border-bottom: 4px solid #009D9D;
-                    width: 50%;
-                    border-radius: 1px;
-                    transition: 0.5s ease;
-                }
-            }     
+        
+        .roth{
+          padding: 10px 10px;
         }
+        
         .categoryTestDes{
             padding: 20px 0;
             width: 80%;
@@ -64,7 +45,7 @@
                     font-size: 16px;
                     font-weight: 600;
                     color: var(--text-color);
-                    
+                    overflow: hidden;
                 }
                 
                 
@@ -75,6 +56,12 @@
                 border-color: #009E9D;
             }
         }
+        @media (max-width: 768px){
+            .categoryTestBody {
+                grid-template-columns: 1fr;
+            }
+        }
     }
 }    
+
 $green: #009D9D;
