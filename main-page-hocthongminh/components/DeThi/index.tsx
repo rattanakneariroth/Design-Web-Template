@@ -23,17 +23,12 @@ export default function DenThi() {
                 style: {
                 backgroundColor: "#009E9D", 
                 height:'4px',
-                maxWidth: 100,
-                justifyContent: "center",
-                transform: 'translateX(55px)',
+            }
+    
+  }} value={value} onChange={handleChange} aria-label="disabled tabs example" centered>
+                <Tab style={{ fontWeight: '700', fontSize: '25px', color: '#009E9D' , padding: '' }}  wrapped sx={{ textTransform: 'capitalize', m: 1 }} onClick={() => setType(0)} label="Đề thi ĐGNL" />
 
-
-     
-                }
-            }} value={value} onChange={handleChange} aria-label="disabled tabs example" centered>
-                <Tab style={{ fontWeight: '700', fontSize: '25px', color: '#009E9D' , padding: '' }} sx={{ textTransform: 'capitalize', m: 1 }} onClick={() => setType(0)} label="Đề thi ĐGNL" />
-
-                <Tab style={{  fontWeight: '700', fontSize: '25px', color: '#009E9D' , padding: '' }} sx={{ textTransform: 'capitalize', m: 1 }} onClick={() => setType(1)} label="Luyện thi THPT" />
+                <Tab style={{  fontWeight: '700', fontSize: '25px', color: '#009E9D' , padding: '' }}  wrapped sx={{ textTransform: 'capitalize', m: 1 }} onClick={() => setType(1)} label="Luyện thi THPT" />
             </Tabs>
             
             { type === 0 && 

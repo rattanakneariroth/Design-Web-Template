@@ -18,10 +18,6 @@ export default function Header() {
             </div>
        </div>
         <nav className={styles.navbar}>
-            {/* <div className={styles.menuBar}>
-                <MenuIcon />
-
-            </div> */}
             <a href="#">Luyện Thi THPT QG</a>
             <a href="#">THCS<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path fill='white' d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></a>
             <a href="#">THPT<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path fill='white' d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></a>
