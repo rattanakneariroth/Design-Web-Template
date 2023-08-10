@@ -1,0 +1,30 @@
+.navbar {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: flex;
+    height: 42px;
+    background-color: #009D9D;
+    align-items: center;
+    padding-left: 5.5%;
+    a{
+        font-size: 13px;
+        padding: 8px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    
+  }
+  
+  .sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .main {
+    padding: 40px 20px;
+  }
