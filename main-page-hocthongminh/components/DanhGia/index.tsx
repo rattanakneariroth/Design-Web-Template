@@ -30,14 +30,12 @@ export default function DanhGia() {
     >
       <SwiperSlide>
       {({ isActive }) => (
-      
       <div className={`${styles["swiperSlide"]} ${styles["prev"]}`}>
                     <div className={styles.itemFB}>
                         {isActive && <div className={styles.activeFB}>
                             <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={70} height={70}  />
-
-                        </div>
-}
+                            </div>
+                        }
                         <div className={styles.topFB}>
                             <div className={styles.image}>
                                  <Image src="https://hocthongminh.com/images/phuonglinh.svg"  alt="feedback" width={100} height={100}  />
@@ -128,7 +126,7 @@ export default function DanhGia() {
 
                             </div>
                             <div>
-                                <div className={styles.name}>Nguyễn Phương Linh</div>
+                                <div className={styles.name}>Nguyễn Phúc Trung Kiên</div>
                                 <div className={styles.rate}>
                                     
                                         <span>
@@ -170,7 +168,7 @@ export default function DanhGia() {
 
                             </div>
                             <div>
-                                <div className={styles.name}>Nguyễn Phương Linh</div>
+                                <div className={styles.name}>Trần Lê Mai Anh</div>
                                 <div className={styles.rate}>
                                     
                                         <span>
@@ -212,7 +210,7 @@ export default function DanhGia() {
 
                             </div>
                             <div>
-                                <div className={styles.name}>Nguyễn Phương Linh</div>
+                                <div className={styles.name}>Nguyễn Diệu Hương</div>
                                 <div className={styles.rate}>
                                     
                                         <span>
