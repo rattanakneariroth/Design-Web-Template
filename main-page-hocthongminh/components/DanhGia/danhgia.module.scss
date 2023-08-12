@@ -41,13 +41,7 @@
                 opacity: 1;
                 
             }
-            .prev{
-                display: block !important;
-                position: relative;
-                transform: scale(1.2);
-                transition-duration: 0.3s;
-                opacity: 1;
-            }
+
             
         }
 
@@ -65,10 +59,10 @@
         
         .activeFB{
             position: absolute;
-            width: 70px;
-            height: 70px;
-            top: -30px;
-            left: -30px;
+            width: 90px;
+            height: 90px;
+            top: -40px;
+            left: -40px;
             // display: none;
             // z-index: 1;
         }

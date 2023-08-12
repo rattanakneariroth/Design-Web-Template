@@ -33,7 +33,7 @@ export default function DanhGia() {
       <div className={`${styles["swiperSlide"]} ${styles["prev"]}`}>
                     <div className={styles.itemFB}>
                         {isActive && <div className={styles.activeFB}>
-                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={70} height={70}  />
+                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={80} height={80}  />
                             </div>
                         }
                         <div className={styles.topFB}>
@@ -75,7 +75,7 @@ export default function DanhGia() {
       <div className={`${styles["swiperSlide"]} ${styles["prev"]}`}>
                     <div className={styles.itemFB}>
                     {isActive && <div className={styles.activeFB}>
-                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={70} height={70}  />
+                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={80} height={80}  />
 
                         </div>}
                         <div className={styles.topFB}>
@@ -117,7 +117,7 @@ export default function DanhGia() {
       <div className={`${styles["swiperSlide"]} ${styles["prev"]}`}>
                     <div className={styles.itemFB}>
                     {isActive && <div className={styles.activeFB}>
-                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={70} height={70}  />
+                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={80} height={80}  />
 
                         </div>}
                         <div className={styles.topFB}>
@@ -159,7 +159,7 @@ export default function DanhGia() {
       <div className={`${styles["swiperSlide"]} ${styles["prev"]}`}>
                     <div className={styles.itemFB}>
                     {isActive && <div className={styles.activeFB}>
-                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={70} height={70}  />
+                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={80} height={80}  />
 
                         </div>}
                         <div className={styles.topFB}>
@@ -201,7 +201,7 @@ export default function DanhGia() {
       <div className={`${styles["swiperSlide"]} ${styles["prev"]}`}>
                     <div className={styles.itemFB}>
                     {isActive && <div className={styles.activeFB}>
-                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={70} height={70}  />
+                            <Image src="https://hocthongminh.com/images/active-feedback.svg"  alt="feedback" width={80} height={80}  />
 
                         </div>}
                         <div className={styles.topFB}>
