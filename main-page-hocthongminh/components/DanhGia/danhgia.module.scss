@@ -15,84 +15,70 @@
 
     }
     .swiper{
-        padding: 70px 0;
         
-        .swiperWrapper{
-            position: relative;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            display: flex;
-            transition-property: transform;
-            box-sizing: content-box;
-            // transition-duration: 0ms;
-            // transform: translate3d(-994px, 0px, 0px);
-            // transform: translateZ(0);
-            display: grid;
-            // grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            grid-gap: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        padding: 40px 0;
+        overflow: hidden;
         
+        
+        .itemFB{
+            // display: flex;
+            background-color: #fff;
+            box-shadow: 0 6px 15px rgba(203,204,218,.5);
+            border-radius: 5px;
+            padding: 10px 10px 20px;
             
-
+            font-weight: lighter;
+            // margin: 0 15px;
             
-        }
-
-    }
-    .itemFB{
-        // display: grid;
-        text-align: center;
-        background-color: #fff;
-        box-shadow: 0 6px 15px rgba(203,204,218,.5);
-        border-radius: 5px;
-        padding: 10px 10px 20px;
-        position: relative;
-        justify-content: center;
-        font-weight: lighter;
-        
-        .activeFB{
-            position: absolute;
-            width: 90px;
-            height: 90px;
-            top: -40px;
-            left: -40px;
-            // display: none;
-            // z-index: 1;
-        }
-        .image{
-            padding: 10px 0;
-        }
-        .name{
-            padding-bottom: 10px;
-            font-weight: bold;
-            font-size: 20px;
-        }
-        .rate{
-            display: inline-flex;
-            align-items: center;
-            border: 1px solid #009d9d;
-            border-radius: 50px;
-            cursor: pointer;
-            padding: 4px 10px;
-            span{
+            
+            .activeFB{
+                position: absolute;
+                width: 90px;
+                height: 90px;
+                top: -40px;
+                left: -40px;
                 
-                // text-align: center;
-                display: flex;
+            }
+            .image{
+                padding: 10px 0;
+                width: 100%;
+                height: 100%;
+            }
+            .name{
+                padding-bottom: 10px;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            .rate{
+                display: inline-flex;
                 align-items: center;
-                fill: #faaf00;
+                border: 1px solid #009d9d;
+                border-radius: 50px;
+                cursor: pointer;
+                padding: 5px 12px;
+                span{
+                    
+                    // text-align: center;
+                    display: flex;
+                    align-items: center;
+                    fill: #faaf00;
+                }
+                
+            }
+            .contentFB{
+                margin: 10px 0;
+                text-align: left;
+                line-height: 24px;
+                min-height: 96px;
+                font-size: 20px;
             }
             
         }
-        .contentFB{
-            margin: 10px 0;
-            text-align: left;
-            line-height: 24px;
-            min-height: 96px;
-        }
         
+        
+        
+
     }
-    
+
 }
 $yellowstar: #faaf00;

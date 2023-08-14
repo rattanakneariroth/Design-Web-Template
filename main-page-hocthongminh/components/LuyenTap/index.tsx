@@ -17,7 +17,7 @@ import '@fontsource/roboto';
 export default function LuyenTap() {
   return (
     <div className={styles.categaryCourse}>
-        <div>
+        
             <div className={styles.titleCategory}>
                 <h1 className={styles.title_h1}>
                 Luyện tập trắc nghiệm online tại Học Thông Minh
@@ -149,6 +149,6 @@ export default function LuyenTap() {
             </div>
             
         
-    </div>
+    
   )
 }
